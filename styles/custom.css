@@ -1,0 +1,391 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+
+body,
+html {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* parallax */
+
+.parallax {
+    background-image: url(images/movietime1.jpeg);
+    min-height: 895px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paratxt {
+text-align: left;
+padding-top: 50px;
+padding-left: 30px;
+color: white;
+}
+
+.paratxt h1 {
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6D7F7F;
+    
+}
+
+.paratxt h2 {
+    font-size: 40px;
+    color: #CDE4E3;
+    width: 100px;
+}
+
+.paratxt p {
+    font-size: 20px;
+    font-weight: 100;
+    width: 300px;
+    color: white;
+    padding-top: 300px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* carousel  */
+
+.carousel  {
+    margin-bottom: 7rem;
+    
+}
+
+
+/* tussenruimte met lijn */
+
+.divider {
+    margin: 7rem 0 7rem 0;
+}
+
+/* films */
+
+.col-image > img {
+    height:455px;
+    width: auto;
+   object-fit: cover;
+   
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-txt {
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.koop-btn1, .koop-btn3, .koop-btn5, .koop-btn2, .koop-btn4 {
+    border: 2px solid;
+    padding: 8px 100px;
+    text-decoration: none;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 40px;
+    font-weight: 700;
+    
+}
+
+
+
+.koop-btn1 {
+    color: #CDE4E3;
+}
+.koop-btn1:hover {
+    background-color: #CDE4E3;
+    color: white;
+    text-decoration: none;
+}
+
+.koop-btn2 {
+    color: #EDA7A7;
+}
+.koop-btn2:hover {
+    background-color: #EDA7A7;
+    color: white;
+    text-decoration: none;
+}
+
+.koop-btn3 {
+    color: #F40D0A;
+}
+.koop-btn3:hover {
+    background-color: #F40D0A;
+    color: white;
+    text-decoration: none;
+}
+
+.koop-btn4 {
+    color:#E5B68A;
+}
+.koop-btn4:hover {
+    background-color: #E5B68A;
+    color: white;
+    text-decoration: none;
+}
+
+.koop-btn5 {
+    color: #F6896B;
+}
+.koop-btn5:hover {
+    background-color: #F6896B;
+    color: white;
+    text-decoration: none;
+}
+
+/* row */
+
+
+/* text */
+
+h1.verschoven-letter1, h1.verschoven-letter2, h1.verschoven-letter3, h1.verschoven-letter4, h1.verschoven-letter5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 380;
+    margin-top: -650px;
+    font-size: 15rem;
+    position: absolute;
+}
+
+h1.verschoven-letter1 {
+    right: 10px;
+    color: #CDE4E3;
+}
+
+h1.verschoven-letter2 {
+    left: 10px;
+    color:  #EDA7A7;
+}
+
+h1.verschoven-letter3 {
+    right: 10px;
+    color: #EBE9E6;
+}
+
+h1.verschoven-letter4 {
+    left: 10px;
+    color:  #E5B68A;
+}
+
+h1.verschoven-letter5 {
+    right: 10px;
+    color: #F6896B;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 56px;
+    margin-top: 40px;
+}
+
+h2.verschoven-film1{
+    text-align:left;
+    margin-left:-5px;
+}
+
+h2.verschoven-film2{
+    text-align:left;
+    margin-left:-5px;
+    width: 400px;
+}
+
+h2.verschoven-film3{
+    text-align:left;
+    margin-left:-5px;
+}
+
+h2.verschoven-film4{
+    text-align:left;
+    margin-left:-5px;
+    width: 300px;
+}
+h2.verschoven-film5{
+    position: relative;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.5rem;
+
+}
+h3.verschoven-film1, h3.verschoven-film2, h3.verschoven-film3, h3.verschoven-film4,    h3.verschoven-film5 {
+    position: relative;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+h3.verschoven-film1 {
+    color: #CDE4E3;
+}
+
+h3.verschoven-film2 {
+    color:  #EDA7A7;
+}
+
+h3.verschoven-film3 {
+    color: #F40D0A;
+}
+
+h3.verschoven-film4 {
+    color: #E5B68A;
+}
+
+h3.verschoven-film5 {
+    color: #F6896B;
+}
+
+
+p {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    margin-bottom: 40px; 
+    line-height: 190%; 
+
+}
+
+h4 {
+    font-size: 1rem;
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 190%;
+}
+
+/* footer */
+
+.divider-footer {
+    margin: 7rem 0 0 0;
+}
+
+footer {
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-end;
+    color:grey;
+}
+
+.footer img {
+    width: auto;
+    height: 40px;
+    margin-top: 0;
+}
+
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    .paratxt {
+        text-align: left;
+        padding-left: 100px;
+        color: white;
+        }
+    .paratxt h1 {
+        font-size: 90px;
+        position: fixed;
+    }
+    .paratxt h2 {
+        font-size: 60px;
+        position: fixed;
+        padding-top: 100px;
+    }
+    
+    .paratxt p {
+        font-size: 30px;
+        padding-top: 300px;
+        width: 500px;
+        text-align: left;
+    }
+ 
+    .col-image > img {
+        height:700px;
+        width: auto;
+       object-fit: cover;
+       
+    }
+
+    .divider-footer {
+        margin: 5rem 0 2rem 0;
+    }
+    
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    
+
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    h1.verschoven-letter1, h1.verschoven-letter3, h1.verschoven-letter5 {
+        margin:-200px -48px 0 0;
+        font-size: 18rem;
+        font-weight: 400;
+    }
+
+    h1.verschoven-letter2,  h1.verschoven-letter4 {
+        margin:-200px 0 0 -150px;
+        font-size: 18rem;
+        font-weight: 400;
+    }
+
+  
+    h2.verschoven-film1{
+        position: relative;
+        left:-64%; 
+        width: 130%;
+    }
+   
+    h2.verschoven-film4{
+        position: relative; 
+        width: 159%;
+    }
+
+    h1.verschoven-letter3 {
+        color: #F40D0A;
+    }
+    
+    
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}

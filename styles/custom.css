@@ -314,26 +314,23 @@ footer {
         }
     .paratxt h1 {
         font-size: 90px;
-        position: fixed;
     }
+    
     .paratxt h2 {
         font-size: 60px;
-        position: fixed;
-        padding-top: 100px;
     }
     
     .paratxt p {
         font-size: 30px;
-        padding-top: 300px;
         width: 500px;
         text-align: left;
+        padding-top: 5px;
     }
  
     .col-image > img {
         height:700px;
         width: auto;
        object-fit: cover;
-       
     }
 
     .divider-footer {
